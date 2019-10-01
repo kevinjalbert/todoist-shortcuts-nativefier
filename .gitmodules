@@ -1,0 +1,3 @@
+[submodule "todoist-shortcuts"]
+	path = todoist-shortcuts
+	url = https://github.com/mgsloan/todoist-shortcuts
