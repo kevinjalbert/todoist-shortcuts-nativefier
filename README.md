@@ -19,10 +19,7 @@ Unfortunately, `nativefier` has an issue with [injecting multiple JavaScript fil
 First, you install the dependencies:
 `npm install`
 
-Next, we need to download `todoist-shortcuts`:
-`npm run downloadTodoistShortcuts`
-
-Finally, we build the application:
+Then, we build the application:
 `npm run buildApplication`
 
 ## Workflow using Both Applications

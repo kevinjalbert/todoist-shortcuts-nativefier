@@ -3,7 +3,6 @@
     "nativefier": "^7.6.0"
   },
   "scripts": {
-    "downloadTodoistShortcuts": "./download-todoist-shortcuts.sh",
     "buildApplication": "./build.sh",
     "clean": "./clean.sh"
   }
