@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: nativefier
+    versions:
+    - 42.0.2
+    - 42.2.1
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  commit-message:
+    prefix: chore
+    include: scope
